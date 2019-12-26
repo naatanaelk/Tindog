@@ -1,0 +1,170 @@
+body{
+    font-family: 'Monserrat', sans-serif;
+}
+h2{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Monserrat-Light', sans-serif;
+}
+
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.tindog-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.tindog-main-image{
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+.tindog-title{
+    font-family: 'Monserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: whitesmoke;
+    padding-bottom: 1.5rem;
+    letter-spacing: 0em;
+}
+.rotateimg30 {
+    transform: rotate(25deg);
+  }
+
+
+
+/* Feature Section */
+
+#features{
+    text-align: center;
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+.symbol{
+    color: #ef8172;
+    font-size: 3rem;
+    padding: 5%;
+}
+.symbol:hover{
+    color: #ff4c68;
+}
+.feature-heading{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.feature-subtitle{
+    color: #8f8f8f;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action Section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 15% 0 15%;
+}
+.cta-title{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Footer Section */
+
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+.footer-copyright{
+    color: #8f8f8f;
+}
+.footer-symbol{
+    padding: 2% 1.5%;
+    font-size: 0.9rem;
+}
+.footer-symbol:hover{
+    color: #ff4c68;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .tindog-main-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
